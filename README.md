@@ -28,15 +28,15 @@ Perfect for interviews, revision, and sharing knowledge.
 - [closure.js](javascript/closure.js) — What closures are & how they keep scope alive
 
 ### ✅ TypeScript
-- [types.ts](typescript/types.ts) — Basic types
-- [interface.ts](typescript/interface.ts) — Interfaces & usage
-- [generics.ts](typescript/generics.ts) — Generics made easy
-- [enums.ts](typescript/enums.ts) — Enums in TS
-- [union-intersection.ts](typescript/union-intersection.ts) — Union & Intersection types
-- [type-inference.ts](typescript/type-inference.ts) — How TS infers types
-- [tuple.ts](typescript/tuple.ts) — Tuple type
-- [async-await.ts](typescript/async-await.ts) — Async/Await with TS
-- [class.ts](typescript/class.ts) — Classes with TS
+- [types.ts](typescript/types.ts) — Basic types, type aliases, literals, unions, intersections
+- [interface.ts](typescript/interface.ts) — Interfaces: shape, optional, readonly, extend, methods, functions
+- [generics.ts](typescript/generics.ts) — Generics: functions, interfaces, classes, constraints, multiple params
+- [enums.ts](typescript/enums.ts) — Enums: numeric, string, mixed, usage in functions & objects
+- [union-intersection.ts](typescript/union-intersection.ts) — Union & Intersection: either/or, combine multiple types
+- [type-inference.ts](typescript/type-inference.ts) — How TypeScript infers types, when to type explicitly
+- [tuple.ts](typescript/tuple.ts) — Tuples: fixed-length arrays, optional/rest elements, labels, readonly
+- [async-await.ts](typescript/async-await.ts) — Async/Await with TS: promises, await, try-catch, parallel calls
+- [class.ts](typescript/class.ts) — Classes: properties, constructors, access modifiers, inheritance, interfaces, static
 
 ---
 
