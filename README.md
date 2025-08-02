@@ -84,6 +84,67 @@ Try tweaks, break things, debug — that’s the best way to learn!
 
 ---
 
+## 🚀 How to Run Any File (2 Runners)
+
+This repo has **two runners** to make your life smooth & easy:  
+✅ **Normal Runner** — edit the file path inside `Runner.js`  
+✅ **Prompt Runner** — type the file path when you run
+
+---
+
+### ⚡ Normal Runner
+
+1️⃣ Edit the file name inside `Runner.js`:
+```javascript
+const fileToRun = "javascript/array-map.js";
+```
+
+2️⃣ Run:
+```bash
+npm run dev
+```
+
+---
+
+### ⚡ Prompt Runner
+
+1️⃣ Just run:
+```bash
+npm run promptDev
+```
+
+2️⃣ You’ll see:
+```
+👉 Enter file path to run (e.g., javascript/array-map.js):
+```
+
+3️⃣ Type the file you want:
+```
+javascript/array-map.js
+typescript/class.ts
+```
+
+4️⃣ It auto-detects `.ts` vs `.js` and runs it with **Node** or **ts-node** automatically.
+
+---
+
+### 📌 Requirements
+
+Clone the repo & install once:
+```bash
+npm install
+```
+
+That’s it — everything is ready!
+
+---
+
+✅ No manual commands.  
+✅ No hassle.  
+✅ Just **edit or type**, hit run, done!
+
+---
+
 ## 💡 Why This Exists
 
 I made this to teach myself **JavaScript** & **TypeScript** deeply — and have an easy place to revise when interviews come calling.  
