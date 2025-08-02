@@ -1,0 +1,20 @@
+{
+  "name": "js-ts-playground",
+  "version": "1.0.0",
+  "description": "A playground for JavaScript and TypeScript snippets.",
+  "main": "index.js",
+  "author": "Your Name",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AnandRajput-ASR/js-ts-playground.git"
+  },
+  "scripts": {
+    "dev": "node runner.js",
+    "promptDev": "node promptRunner.js"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
+  }
+}
