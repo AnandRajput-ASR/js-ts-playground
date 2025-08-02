@@ -1,0 +1,17 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Run Normal Runner",
+            "program": "${workspaceFolder}/Runner.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Run Fancy Prompt Runner",
+            "program": "${workspaceFolder}/promptRunner.js"
+        }
+    ]
+}
