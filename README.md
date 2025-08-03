@@ -26,6 +26,33 @@ Use this to:
   ├─ promise-basic.js
   ├─ async-await.js
   ├─ closure.js
+  ├─ this-bind-call.js
+  ├─ event-loop.js
+  ├─ prototypes-inheritance.js
+  ├─ generators-iterators.js
+  ├─ modules.js
+  ├─ proxy-reflect.js
+  ├─ design-patterns.js
+  ├─ currying-partial.js
+  ├─ debounce-throttle.js
+  ├─ event-emitter.js
+  ├─ memoization.js
+  ├─ web-worker.js
+  ├─ symbols-iterators.js
+  ├─ generators.js
+  ├─ async-generators.js
+  ├─ private-fields-weakmaps.js
+  ├─ event-loop-deep-dive.js
+  ├─ custom-bind-call-apply.js
+  ├─ module-pattern-iife.js
+  ├─ memoization-caching.js
+  ├─ observer-pubsub.js
+  ├─ singleton-pattern.js
+  ├─ promise-advanced.js
+  ├─ abort-controller.js
+  ├─ event-delegation.js
+  ├─ polyfill-map-reduce.js
+  ├─ throttle-debounce.js
 
 /typescript
   ├─ types.ts
@@ -37,6 +64,31 @@ Use this to:
   ├─ tuple.ts
   ├─ async-await.ts
   ├─ class.ts
+  ├─ advanced-types.ts
+  ├─ decorators.ts
+  ├─ type-guards.ts
+  ├─ template-literal-types.ts
+  ├─ advanced-decorators.ts
+  ├─ conditional-types.ts
+  ├─ mapped-types.ts
+  ├─ utility-types.ts
+  ├─ discriminated-unions.ts
+  ├─ declaration-merging.ts
+  ├─ namespaces-vs-modules.ts
+  ├─ infer-keyword.ts
+  ├─ keyof-typeof.ts
+
+/design-patterns
+  ├─ singleton.js
+  ├─ factory.js
+  ├─ observer.js
+  ├─ decorator.js
+  ├─ strategy.js
+  ├─ command.js
+  ├─ adapter.js
+  ├─ module.js
+  ├─ proxy-pattern.js
+
 ```
 
 ---
@@ -54,6 +106,34 @@ Use this to:
 - [promise-basic.js](javascript/promise-basic.js) — Basics of Promises: states, resolve/reject, chaining, Promise.all
 - [async-await.js](javascript/async-await.js) — Using `async` & `await` for clean, readable async code
 - [closure.js](javascript/closure.js) — What closures are & how they keep scope alive
+- [this-bind-call.js](javascript/this-bind-call.js) — `this` keyword, bind, call & apply explained
+- [event-loop.js](javascript/event-loop.js) — Event Loop: microtasks, macrotasks, Promises vs setTimeout
+- [prototypes-inheritance.js](javascript/prototypes-inheritance.js) — Prototypes & Inheritance explained, old-school & ES6
+- [generators-iterators.js](javascript/generators-iterators.js) — Generators & Iterators, yield magic!
+- [modules.js](javascript/modules.js) — CommonJS vs ES Modules explained, export/import patterns
+- [proxy-reflect.js](javascript/proxy-reflect.js) — Proxy & Reflect for meta-programming tricks
+- [design-patterns.js](javascript/design-patterns.js) — Classic Design Patterns: Singleton, Factory, Observer
+- [currying-partial.js](javascript/currying-partial.js) — Currying & Partial Application explained!
+- [debounce-throttle.js](javascript/debounce-throttle.js) — Debounce & Throttle: performance optimization patterns
+- [event-emitter.js](javascript/event-emitter.js) — Build your own EventEmitter (pub/sub pattern)
+- [memoization.js](javascript/memoization.js) — Memoization: caching expensive calls
+- [web-worker.js](javascript/web-worker.js) — Web Workers: multithreading for heavy tasks
+- [symbols-iterators.js](javascript/symbols-iterators.js) — Symbols & Iterators: custom protocols, unique keys
+- [generators.js](javascript/generators.js) — Generators: pause & resume execution
+- [async-generators.js](javascript/async-generators.js) — Async Generators & for-await-of: async iteration magic
+- [private-fields-weakmaps.js](javascript/private-fields-weakmaps.js) — Private Fields & WeakMaps: true OOP privacy
+- [event-loop-deep-dive.js](javascript/event-loop-deep-dive.js) — Event Loop: microtasks, macrotasks, and ticks explained
+- [custom-bind-call-apply.js](javascript/custom-bind-call-apply.js) — Rebuild bind(), call(), and apply() from scratch
+- [module-pattern-iife.js](javascript/module-pattern-iife.js) — Module Pattern & IIFE: closures for privacy & factories
+- [memoization-caching.js](javascript/memoization-caching.js) — Memoization & Caching: optimize repeated calls
+- [observer-pubsub.js](javascript/observer-pubsub.js) — Observer / Pub-Sub Pattern: custom event system
+- [singleton-pattern.js](javascript/singleton-pattern.js) — Singleton Pattern: ensure a single instance
+- [promise-advanced.js](javascript/promise-advanced.js) — Advanced Promises: all, race, any, allSettled
+- [abort-controller.js](javascript/abort-controller.js) — AbortController: cancel fetch requests cleanly
+- [event-delegation.js](javascript/event-delegation.js) — Event Delegation for efficient DOM handling
+- [polyfill-map-reduce.js](javascript/polyfill-map-reduce.js) — Custom Polyfill for map & reduce
+- [throttle-debounce.js](javascript/throttle-debounce.js) — Throttle & Debounce for UI performance
+
 
 ### 🟦 TypeScript
 - [types.ts](typescript/types.ts) — Basic types, type aliases, literals, unions, intersections
@@ -65,6 +145,32 @@ Use this to:
 - [tuple.ts](typescript/tuple.ts) — Tuples: fixed-length arrays, optional/rest elements, labels, readonly
 - [async-await.ts](typescript/async-await.ts) — Async/Await with TS: promises, await, try-catch, parallel calls
 - [class.ts](typescript/class.ts) — Classes: properties, constructors, access modifiers, inheritance, interfaces, static
+- [advanced-types.ts](typescript/advanced-types.ts) — Mapped Types, Conditional Types & Utility Types
+- [decorators.ts](typescript/decorators.ts) — Experimental Decorators for classes, methods, properties
+- [type-guards.ts](typescript/type-guards.ts) — Advanced Type Guards for safe type narrowing
+- [template-literal-types.ts](typescript/template-literal-types.ts) — Template Literal Types: string types on steroids
+- [advanced-decorators.ts](typescript/advanced-decorators.ts) — Advanced Decorators: class, method, property decorators
+- [conditional-types.ts](typescript/conditional-types.ts) — Conditional Types: T extends U ? X : Y
+- [mapped-types.ts](typescript/mapped-types.ts) — Mapped Types: remap keys dynamically
+- [utility-types.ts](typescript/utility-types.ts) — Utility Types: Partial, Required, Readonly, Pick, Omit, Record
+- [discriminated-unions.ts](typescript/discriminated-unions.ts) — Discriminated Unions: Safe tagged unions
+- [declaration-merging.ts](typescript/declaration-merging.ts) — Declaration Merging: Combine multiple declarations
+- [namespaces-vs-modules.ts](typescript/namespaces-vs-modules.ts) — Namespaces vs Modules: Organizing TS code
+- [infer-keyword.ts](typescript/infer-keyword.ts) — Infer Keyword: Extracting types dynamically
+- [keyof-typeof.ts](typescript/keyof-typeof.ts) — keyof & typeof: Reflect real object keys
+
+### 🧩 Design Patterns in JS/TS
+
+- [singleton.js](design-patterns/singleton.js) — Singleton Pattern: One instance only
+- [factory.js](design-patterns/factory.js) — Factory Pattern: Create families of objects
+- [observer.js](design-patterns/observer.js) — Observer Pattern: Pub-Sub mechanism
+- [decorator.js](design-patterns/decorator.js) — Decorator Pattern: Add behavior dynamically
+- [strategy.js](design-patterns/strategy.js) — Strategy Pattern: Swap algorithms at runtime
+- [command.js](design-patterns/command.js) — Command Pattern: Encapsulate actions
+- [adapter.js](design-patterns/adapter.js) — Adapter Pattern: Bridge incompatible interfaces
+- [module.js](design-patterns/module.js) — Module Pattern: Encapsulate private state
+- [proxy-pattern.js](design-patterns/proxy-pattern.js) — Proxy Pattern: Control access to objects
+
 
 ---
 
