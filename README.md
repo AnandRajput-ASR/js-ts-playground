@@ -97,6 +97,13 @@ Use this to:
   ├─ async-tracing.js
   ├─ v8-basics.js
 
+/clean-architecture
+  ├─ solid-principles.js
+  ├─ layers.js
+  ├─ dependency-inversion.js
+  ├─ di-container.js
+  ├─ clean-architecture-example.js
+
 ```
 
 ---
@@ -186,6 +193,12 @@ Use this to:
 - [async-tracing.js](performance-debugging/async-tracing.js) - Trace async chains using async_hooks — see hidden execution paths
 - [v8-basics.js](performance-debugging/v8-basics.js) - Peek inside V8: JIT, hidden classes, inline caching, de-optimizations
 
+## 🏛️ Clean Architecture & SOLID
+- [solid-principles.js](clean-architecture/solid-principles.js) - SOLID Principles with clear, commented examples
+- [layers.js](clean-architecture/layers.js) - Shows classic Controller ➜ Service ➜ Repository pattern
+- [dependency-inversion.js](clean-architecture/dependency-inversion.js) - Shows how to invert dependencies with abstractions & flexible implementations
+- [di-container.js](clean-architecture/di-container.js) - Tiny Dependency Injection Container — auto-wires your classes
+- [clean-architecture-example.js](clean-architecture/clean-architecture-example.js) - A full mini Clean Architecture app: SRP, Layers, DIP, DI Container
 
 ---
 
