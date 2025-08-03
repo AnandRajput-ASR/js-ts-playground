@@ -89,6 +89,14 @@ Use this to:
   ├─ module.js
   ├─ proxy-pattern.js
 
+/performance-debugging
+  ├─ event-loop.js
+  ├─ memory-leaks.js
+  ├─ cpu-bottlenecks.js
+  ├─ debug-like-a-boss.js
+  ├─ async-tracing.js
+  ├─ v8-basics.js
+
 ```
 
 ---
@@ -160,7 +168,6 @@ Use this to:
 - [keyof-typeof.ts](typescript/keyof-typeof.ts) — keyof & typeof: Reflect real object keys
 
 ### 🧩 Design Patterns in JS/TS
-
 - [singleton.js](design-patterns/singleton.js) — Singleton Pattern: One instance only
 - [factory.js](design-patterns/factory.js) — Factory Pattern: Create families of objects
 - [observer.js](design-patterns/observer.js) — Observer Pattern: Pub-Sub mechanism
@@ -170,6 +177,14 @@ Use this to:
 - [adapter.js](design-patterns/adapter.js) — Adapter Pattern: Bridge incompatible interfaces
 - [module.js](design-patterns/module.js) — Module Pattern: Encapsulate private state
 - [proxy-pattern.js](design-patterns/proxy-pattern.js) — Proxy Pattern: Control access to objects
+
+### 🚦 Performance & Debugging
+- [event-loop.js](performance-debugging/event-loop.js) - Understand JS Event Loop, macrotasks vs microtasks, interview-ready
+- [memory-leaks.js](performance-debugging/memory-leaks.js) - Find & fix Memory Leaks: closures, listeners, tools
+- [cpu-bottlenecks.js](performance-debugging/cpu-bottlenecks.js) - Find heavy loops, blocking I/O, and profile with time & DevTools
+- [debug-like-a-boss.js](performance-debugging/debug-like-a-boss.js) - Breakpoints, VSCode launch config, inspect mode, stepping through code
+- [async-tracing.js](performance-debugging/async-tracing.js) - Trace async chains using async_hooks — see hidden execution paths
+- [v8-basics.js](performance-debugging/v8-basics.js) - Peek inside V8: JIT, hidden classes, inline caching, de-optimizations
 
 
 ---
